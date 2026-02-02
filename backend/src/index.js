@@ -4,7 +4,7 @@ const routes = require('./routes');
 
 const app = express();
 
-app.user(cors());
+app.use(cors());
 app.use(express.json()); /* Diz para o aplicativo que as requisições serão no formato JSON */
 app.use(routes);
 /*

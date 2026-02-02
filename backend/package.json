@@ -9,13 +9,22 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "overrides": {
+    "sqlite3": {
+      "tar": "^7.5.7"
+    },
+    "node-gyp": {
+      "tar": "^7.5.7"
+    }
+  },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "knex": "^0.20.13",
-    "sqlite3": "^4.1.1"
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^3.1.11",
+    "node-gyp": "^12.2.0"
   }
 }
